@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime
 from create_dataframe import create_dataframe_from_weather
 from df_to_postgrsql import write_dataframe_to_postgres
 from send_mail import send_email
