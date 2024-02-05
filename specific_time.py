@@ -13,8 +13,6 @@ def query_at_specific_time():
             target_hour = 13
             target_minute = 44
             now = datetime.now()
-            # current_hour = now.hour
-            # current_minute = now.minute
 
             target_time = datetime(now.year, now.month, now.day, target_hour, target_minute)
 
