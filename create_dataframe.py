@@ -7,9 +7,6 @@ from os import getenv
 load_dotenv()
 
     
-
-
-
 def create_dataframe_from_weather(weather_data):
 
     city = getenv("city")
