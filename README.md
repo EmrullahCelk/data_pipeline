@@ -11,7 +11,7 @@ To initiate the project, run the data_pipeline.py file. This will fetch weather 
 **df_to_postgresql.py**: Module to write the DataFrame to a PostgreSQL database.<br><br>
 **send_mail.py**: Module to send notification emails.<br><br>
 **.env**: File containing environment variables.<br><br>
-**requirements.txt**: This file lists the external dependencies of the project along with their versions. It is commonly used to install all dependencies needed for the project using the `pip install -r requirements.txt` command.
+**requirements.txt**: This file lists the external dependencies of the project along with their versions.
 
 ## How to Run
 To run the project, Clone <a href="https://github.com/EmrullahCelk/data_pipeline.git">the project</a>  files to your computer and run the **data_pipeline_main.py** file by installing the necessary dependencies. 
