@@ -14,7 +14,7 @@ To initiate the project, run the data_pipeline.py file. This will fetch weather 
 **requirements.txt**: This file lists the external dependencies of the project along with their versions.
 
 ## How to Run
-To run the project, Clone <a href="https://github.com/EmrullahCelk/data_pipeline.git">the project</a>  files to your computer and run the **data_pipeline_main.py** file by installing the necessary dependencies. 
+To run the project, clone <a href="https://github.com/EmrullahCelk/data_pipeline.git">the project</a> files to your computer and install the necessary dependencies. Please remember to create the .env file and save the required variables. Then, run the **data_pipeline_main.py** file.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
