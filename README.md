@@ -40,7 +40,6 @@ Before you begin, you will need your IP address and password to connect to the U
     <li>To update system packages for the project, execute the following commands in the PuTTY terminal:</li>
   <ul>
     <code>sudo apt-get update</code>: Updates the package manager's (APT) repository databases.</li>
-    
     <code>sudo apt-get install python3</code>: Installs the latest version of Python 3 on the system. This command provides the Python execution environment required for the project to run.</li>
   </ul> 
   <li>Create and activate a virtual environment.</li>
