@@ -37,6 +37,11 @@ Before you begin, you will need your IP address and password to connect to the U
   ### 3. Updating the Project and Uploading Necessary Files
   <li>After successfully connecting to the Ubuntu server through the PuTTY terminal window, navigate to the directory where your project is located. For example,     use the command `cd /path/to/project` to navigate to the directory where your project is located.<br>
   <li>Clone <a href="https://github.com/EmrullahCelk/data_pipeline.git">this project</a><br>
+    <li>To update system packages for the project, execute the following commands in the PuTTY terminal:</li>
+  <ul>
+    <code>sudo apt-get update</code>: Updates the package manager's (APT) repository databases.</li>
+    <code>sudo apt-get install python3</code>: Installs the latest version of Python 3 on the system. This command provides the Python execution environment required for the project to run.</li>
+  </ul> 
   <li>Create and activate a virtual environment.</li>
 <ul>
   <code>python3 -m venv venv</code>: Create a virtual environment.</li>
@@ -45,8 +50,6 @@ Before you begin, you will need your IP address and password to connect to the U
   <li>Copy the project files to the server using WinSCP. Please make sure you copy the <strong>requirements.txt</strong> and <strong>.env</strong> files to the root directory of the project.<br>
   <li>To update system packages for the project, execute the following commands in the PuTTY terminal:</li>
   <ul>
-    <code>sudo apt-get update</code>: Updates the package manager's (APT) repository databases.</li>
-    <code>sudo apt-get install python3</code>: Installs the latest version of Python 3 on the system. This command provides the Python execution environment required for the project to run.</li>
     <code>sudo apt install postgresql-server-dev-all</code>: Installs the PostgreSQL development files.</li>
   </ul>
   <li>To install the necessary Python packages, use the requirements.txt file.:</li>
