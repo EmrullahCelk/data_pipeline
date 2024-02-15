@@ -48,7 +48,6 @@ Before you begin, you will need your IP address and password to connect to the U
   <code>source venv/bin/activate</code>: Activate the virtual environment.</li>
 </ul> 
   <li>Copy the project files to the server using WinSCP. Please make sure you copy the <strong>requirements.txt</strong> and <strong>.env</strong> files to the root directory of the project.<br>
-  <li>To update system packages for the project, execute the following commands in the PuTTY terminal:</li>
   <ul>
     <code>sudo apt install postgresql-server-dev-all</code>: Installs the PostgreSQL development files.</li>
   </ul>
