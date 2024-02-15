@@ -44,7 +44,7 @@ Before you begin, you will need your IP address and password to connect to the U
   </ul> 
   <li>Create and activate a virtual environment.</li>
 <ul>
-  <code>python3 -m venv venv</code>: Create a virtual environment.</li>
+  <li><code>python3 -m venv venv</code>: Create a virtual environment.</li>
   <code>source venv/bin/activate</code>: Activate the virtual environment.</li>
 </ul> 
   <li>Copy the project files to the server using WinSCP. Please make sure you copy the <strong>requirements.txt</strong> and <strong>.env</strong> files to the root directory of the project.<br>
